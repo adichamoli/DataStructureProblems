@@ -42,3 +42,16 @@ Simply iterating over the list using 2 for loops.
 3. Add list element from i-th loop and j-th loop and compare with the target.
 4. If it matches then return the index i and j.
 5. Else iterate to next element
+
+```
+def two_sum_brute_force(nums, target):
+    for i in range(len(nums) - 1):
+        for j in range(i + 1, len(nums)):
+            if nums[i] + nums[j] == target:
+                return [i, j]
+
+
+print(two_sum_brute_force([1, 2, 3, 9], 10))
+```
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20two_sum_brute_force%28nums,%20target%29%3A%0A%20%20%20%20for%20i%20in%20range%28len%28nums%29%20-%201%29%3A%0A%20%20%20%20%20%20%20%20for%20j%20in%20range%28i%20%2B%201,%20len%28nums%29%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20nums%5Bi%5D%20%2B%20nums%5Bj%5D%20%3D%3D%20target%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%20%5Bi,%20j%5D%0A%0A%0Aprint%28two_sum_brute_force%28%5B1,%202,%203,%209%5D,%2010%29%29&codeDivHeight=400&codeDivWidth=350&cumulative=true&curInstr=12&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
