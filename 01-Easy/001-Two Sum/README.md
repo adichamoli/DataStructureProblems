@@ -54,4 +54,5 @@ def two_sum_brute_force(nums, target):
 print(two_sum_brute_force([1, 2, 3, 9], 10))
 ```
 
-<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20two_sum_brute_force%28nums,%20target%29%3A%0A%20%20%20%20for%20i%20in%20range%28len%28nums%29%20-%201%29%3A%0A%20%20%20%20%20%20%20%20for%20j%20in%20range%28i%20%2B%201,%20len%28nums%29%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20nums%5Bi%5D%20%2B%20nums%5Bj%5D%20%3D%3D%20target%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%20%5Bi,%20j%5D%0A%0A%0Aprint%28two_sum_brute_force%28%5B1,%202,%203,%209%5D,%2010%29%29&codeDivHeight=400&codeDivWidth=350&cumulative=true&curInstr=12&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+![img.png](img.png)
+
