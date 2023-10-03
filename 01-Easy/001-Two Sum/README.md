@@ -30,3 +30,15 @@ Output: [0,1]
 2. Are there any floating numbers in between?
 3. Do the list contains negative number?
 4. Whether list will be in memory?
+
+### **Solution**
+
+#### Brute Force Approach
+The very first approach comes to everyone's mind is to go with brute force solution.
+Simply iterating over the list using 2 for loops. 
+
+1. Start the first loop (i-th loop) and iterate over to the end of list.
+2. Start the second loop (j-th loop) and iterate over to the end of the list.
+3. Add list element from i-th loop and j-th loop and compare with the target.
+4. If it matches then return the index i and j.
+5. Else iterate to next element
