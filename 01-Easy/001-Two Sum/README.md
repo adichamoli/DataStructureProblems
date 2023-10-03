@@ -54,5 +54,7 @@ def two_sum_brute_force(nums, target):
 print(two_sum_brute_force([1, 2, 3, 9], 10))
 ```
 
-![img.png](img.png)
+![image](https://github.com/adichamoli/DataStructureProblems/assets/50514555/f22775a8-f18f-4b19-8d4c-a9e071321c6a)
+
+
 
